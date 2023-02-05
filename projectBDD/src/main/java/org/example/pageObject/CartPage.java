@@ -22,11 +22,13 @@ public class CartPage {
     @FindBy(xpath = "//button[@id='remove-test.allthethings()-t-shirt-(red)']")
     private WebElement removeYourCart;
     public void removeBasket1(){
+
         removeYourCart.click();
     }
     @FindBy(xpath = "//button[@id='checkout']")
     private WebElement processCheckout;
     public void setProcessCheckout(){
+
         processCheckout.click();
     }
 

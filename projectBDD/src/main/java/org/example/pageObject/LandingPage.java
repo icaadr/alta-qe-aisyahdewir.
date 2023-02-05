@@ -18,6 +18,10 @@ public class LandingPage {
 
     @FindBy(xpath = "//span[@class='title']")
     private WebElement vrfyLandingPage;
+    public boolean verifyLandingPage(){
+        vrfyLandingPage.isDisplayed();
+        return true;
+    }
 
     @FindBy(xpath = "//select[@class='product_sort_container']")
     private WebElement selectContainer;
@@ -40,17 +44,12 @@ public class LandingPage {
         basket2.click();
     }
 
-
-    public boolean verifyLandingPage(){
-        vrfyLandingPage.isDisplayed();
-        return true;
-    }
     @FindBy(xpath = "//a[.='2']")
     private WebElement btnCart;
     public void clickCart(){
-
         btnCart.click();
     }
+
     @FindBy(xpath = "//div[@class='header_secondary_container']")
     private WebElement vrfyCartPage;
     public boolean verifyCartPage(){

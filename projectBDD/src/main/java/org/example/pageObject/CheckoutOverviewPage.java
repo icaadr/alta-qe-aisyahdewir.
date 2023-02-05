@@ -12,12 +12,13 @@ public class CheckoutOverviewPage {
         PageFactory.initElements(driver, this);
         this.driver = driver;
     }
+
     @FindBy(xpath ="//div[@class='cart_list']")
     private WebElement vrfyCartList;
-
     public boolean setVrfyCartList() {
         return vrfyCartList.isDisplayed();
     }
+
     @FindBy(xpath = "//div[@class='inventory_item_price']")
     private WebElement itemChosenPrice;
     public Float setItemChosenPrice(){
@@ -26,6 +27,7 @@ public class CheckoutOverviewPage {
         float c = Float.parseFloat(b);
         return c;
     }
+
     @FindBy(xpath ="//div[@class='summary_subtotal_label']")
     private WebElement vrfyItem;
     public Float setItem(){
@@ -34,6 +36,7 @@ public class CheckoutOverviewPage {
         float c = Float.parseFloat(b);
         return c;
     }
+
     @FindBy(xpath ="//div[@class='summary_tax_label']")
     private WebElement vrfyTotalTax;
     public boolean setVrfyTotalTax() {
@@ -54,17 +57,17 @@ public class CheckoutOverviewPage {
         float c = Float.parseFloat(b);
         return c;
     }
+
     @FindBy(xpath = "//button[@id='finish']")
     private WebElement btnFinish;
     public void setBtnFinish(){
-
         btnFinish.click();
     }
 
-    @FindBy(xpath = "//div[@class='header_secondary_container']")
-    private WebElement vrfyCheckoutComplete;
-    public boolean setvrfyCheckoutComplete() {
-        return vrfyCheckoutComplete.isDisplayed();
+    @FindBy(xpath = "//h2[@class='complete-header']")
+    private WebElement vrfyThankYou;
+    public boolean setvrfyThankYou() {
+        return vrfyThankYou.isDisplayed();
     }
 
 

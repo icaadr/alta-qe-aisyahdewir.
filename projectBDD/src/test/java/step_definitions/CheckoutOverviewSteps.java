@@ -30,7 +30,7 @@ public class CheckoutOverviewSteps {
     public void verifyCheckoutOrderPage() throws InterruptedException{
         CheckoutOverviewPage checkoutOverviewPage = new CheckoutOverviewPage(webDriver);
         checkoutOverviewPage.setBtnFinish();
-        Assert.assertTrue(checkoutOverviewPage.setvrfyCheckoutComplete());
+        Assert.assertTrue(checkoutOverviewPage.setvrfyThankYou());
         Thread.sleep(4000);
     }
 

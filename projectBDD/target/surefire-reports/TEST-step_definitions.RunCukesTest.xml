@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="step_definitions.RunCukesTest" time="0.817" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="step_definitions.RunCukesTest" time="3.002" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\bin"/>
     <property name="java.vm.version" value="25.351-b10"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\icaai\nyobaBDD"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\icaai\Downloads\alta-qe-icaaisyahdewi\projectBDD"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\icaai\nyobaBDD"/>
+    <property name="user.dir" value="C:\Users\icaai\Downloads\alta-qe-icaaisyahdewi\projectBDD"/>
     <property name="java.runtime.version" value="1.8.0_351-b10"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\endorsed"/>
@@ -66,16 +66,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="Given User open the website sauce demo" time="0.003"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="When User input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as password" time="0"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="Then User already on landing page" time="0"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="And User sort product list by &quot;Name (Z to A)&quot;" time="0"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="And User choice 2 products from the list" time="0"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="Then User return to page chart" time="0"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="Then User already on checkout page" time="0.001"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="When User input &quot;Aisyah&quot; as userFirst and input &quot;DewiRulyadi&quot; as last and input &quot;123&quot; as zip" time="0"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="Then User ensure the item total and tax" time="0"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="And User ensure the total price after sum with the tax" time="0"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="Then User Has Completed the Checkout Order" time="0"/>
-  <testcase classname="Scenario: User make a purchase with 2 item" name="Scenario: User make a purchase with 2 item" time="0.813"/>
+  <testcase classname="Scenario: User check out desired product until checkout successful" name="Given User open the website sauce demo" time="0.007"/>
+  <testcase classname="Scenario: User check out desired product until checkout successful" name="When User input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as password" time="0"/>
+  <testcase classname="Scenario: User check out desired product until checkout successful" name="Then User already on landing page" time="0"/>
+  <testcase classname="Scenario: User check out desired product until checkout successful" name="And User sort product list by &quot;Name (Z to A)&quot;" time="0"/>
+  <testcase classname="Scenario: User check out desired product until checkout successful" name="And User choice 2 products from the list" time="0"/>
+  <testcase classname="Scenario: User check out desired product until checkout successful" name="Then User return to page chart" time="0"/>
+  <testcase classname="Scenario: User check out desired product until checkout successful" name="Then User already on checkout page" time="0"/>
+  <testcase classname="Scenario: User check out desired product until checkout successful" name="When User input &quot;Aisyah&quot; as userFirst and input &quot;DewiRulyadi&quot; as last and input &quot;11620&quot; as zip" time="0"/>
+  <testcase classname="Scenario: User check out desired product until checkout successful" name="Then User ensure the item total and tax" time="0"/>
+  <testcase classname="Scenario: User check out desired product until checkout successful" name="And User ensure the total price after sum with the tax" time="0"/>
+  <testcase classname="Scenario: User check out desired product until checkout successful" name="Then User Has Completed the Checkout Order" time="0"/>
+  <testcase classname="Scenario: User check out desired product until checkout successful" name="Scenario: User check out desired product until checkout successful" time="2.995"/>
 </testsuite>

@@ -2,7 +2,7 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "line": 2,
   "name": "Sales flow",
-  "description": "description Class",
+  "description": "User processing a purchase flow until checkout completed",
   "id": "sales-flow",
   "keyword": "Feature",
   "tags": [
@@ -13,14 +13,14 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5177335200,
+  "duration": 8047027400,
   "status": "passed"
 });
 formatter.scenario({
   "line": 5,
-  "name": "User make a purchase with 2 item",
+  "name": "User check out desired product until checkout successful",
   "description": "",
-  "id": "sales-flow;user-make-a-purchase-with-2-item",
+  "id": "sales-flow;user-check-out-desired-product-until-checkout-successful",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -61,7 +61,7 @@ formatter.step({
 });
 formatter.step({
   "line": 13,
-  "name": "User input \"Aisyah\" as userFirst and input \"DewiRulyadi\" as last and input \"123\" as zip",
+  "name": "User input \"Aisyah\" as userFirst and input \"DewiRulyadi\" as last and input \"11620\" as zip",
   "keyword": "When "
 });
 formatter.step({
@@ -83,7 +83,7 @@ formatter.match({
   "location": "LoginSteps.verifyLogin()"
 });
 formatter.result({
-  "duration": 319202000,
+  "duration": 892648100,
   "status": "passed"
 });
 formatter.match({
@@ -100,14 +100,14 @@ formatter.match({
   "location": "LoginSteps.inputCredential(String,String)"
 });
 formatter.result({
-  "duration": 504810600,
+  "duration": 1202673600,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.verifyLandingPage()"
 });
 formatter.result({
-  "duration": 89957400,
+  "duration": 134008800,
   "status": "passed"
 });
 formatter.match({
@@ -120,28 +120,28 @@ formatter.match({
   "location": "PurchaseSteps.sortProductValue(String)"
 });
 formatter.result({
-  "duration": 3183879000,
+  "duration": 3345417400,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.choiceProduct()"
 });
 formatter.result({
-  "duration": 2120579900,
+  "duration": 2248212000,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.openCart()"
 });
 formatter.result({
-  "duration": 2124087200,
+  "duration": 2209295400,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckoutSteps.verifyYourCartPage()"
 });
 formatter.result({
-  "duration": 9208680300,
+  "duration": 6315621700,
   "status": "passed"
 });
 formatter.match({
@@ -155,39 +155,39 @@ formatter.match({
       "offset": 44
     },
     {
-      "val": "123",
+      "val": "11620",
       "offset": 76
     }
   ],
   "location": "CheckoutSteps.inputCredential(String,String,String)"
 });
 formatter.result({
-  "duration": 20570128600,
+  "duration": 10283568600,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckoutOverviewSteps.verifyYourCartList()"
 });
 formatter.result({
-  "duration": 2104017300,
+  "duration": 2228445800,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckoutOverviewSteps.verifyTotalPrice()"
 });
 formatter.result({
-  "duration": 2077395100,
+  "duration": 2148904400,
   "status": "passed"
 });
 formatter.match({
   "location": "CheckoutOverviewSteps.verifyCheckoutOrderPage()"
 });
 formatter.result({
-  "duration": 4120613500,
+  "duration": 4200067600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 809992600,
+  "duration": 2988859400,
   "status": "passed"
 });
 });
